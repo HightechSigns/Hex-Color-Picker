@@ -15,7 +15,7 @@ This code was built just with HTML5, CSS, and jQuery. Some Raw Javascript.
 I had been inspired by Coolors.com to try and create a color picker and pallet creator. This project is a massively dumbed down version of Fabrizio's site but I think this was a great experience using Jquery. Over the past year, I have been working with React.js nonstop and like to dabble in with Jquery once in a while.
 
 ##### Main Screen
-![Main Screen]("https://github.com/HightechSigns/Hex-Color-Picker/blob/master/assets/color-picker-main-2.jpg")
+![Main Screen]("https://github.com/HightechSigns/Hex-Color-Picker/blob/master/assets/color-picker-main-2.jpg?raw=true")
 
 ##### Added colors to pallet
 ![Added to Pallet]("assets\color-picker-main-2.jpg")
