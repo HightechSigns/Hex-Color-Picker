@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/09788418f5.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="confirmation"></div>
+  <div class='main-cont'>
+    <div class="color-picker-main-cont">
+      <h3>Colors</h3>
+      <div class="colors-cont">
+      </div>
+    </div>
+    <div class="preview-color">
+      <h3 class="chosen-color"></h3>
+      <div class="cc-options">
+        <div>
+          <p class="cc-o-text copy">Copy</p>
+          <i class="far fa-copy click-icon"></i>
+
+        </div>
+        <div>
+          <p class="cc-o-text atp">Add to Pallet</p>
+          <i class="far fa-plus-square click-icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="color-pallet">
+    <div class='c-p-title'>
+      <h3>Color Pallet</h3>
+      <div>
+        <button id="preview" class='cp-btn'>Export Pallet</button>
+        <button id="clear-pallet-btn" class='cp-btn'>Clear Pallet</button>
+      </div>
+    </div>
+    <p class="cp-details">Add Colors by clicking on the "Add To Pallet" Button when a color has been selected</p>
+
+    <div class="cp-cont">
+      <!--     this is where all the color go for the pallet   -->
+    </div>
+  </div>
+  <input class='i-i' />
+
+  <div class='preview-canvas-cont'>
+
+    <i id="close-preview" class="far fa-times-circle click-icon"></i>
+    <div class='canvas-area'>
+
+    </div>
+    <a id="save-img" class='cp-btn' href="#">Download PNG <i class="far fa-arrow-alt-circle-down"></i></a>
+    <button id="copy-all" class='cp-btn'>Copy All Hex Codes <i class="far fa-copy"></i></button>
+  </div>
+
+  <script src="./script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+</body>
+
+</html>
