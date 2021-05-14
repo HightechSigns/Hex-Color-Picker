@@ -18,7 +18,7 @@ I had been inspired by Coolors.com to try and create a color picker and pallet c
 ![Main Screen]("assets/color-picker-main.jpg")
 
 ##### Added colors to pallet
-![Added to Pallet]("assets/color-picker-main-2.jpg")
+![Added to Pallet]("assets\color-picker-main-2.jpg")
 
 ##### Export Pallet
 ![Export Pallet]("assets/color-picker-main-export.jpg")
